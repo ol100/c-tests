@@ -22,7 +22,7 @@ int main(){
     //scanf("%d", &y);
     //f=x+y;
     //printf("el resultado es:%d\n",f);
-    printf("vamos a probar elegir que quieres hacer, si pulsas 1 es suma, 2 resta, 3 multiplicar, 4 dividir, 5 para salir, 6 para potencias, 7 para raices:");
+    printf("Elige que quieres hacer\n, si pulsas 1 es suma\n, 2 resta\n, 3 multiplicar\n, 4 dividir\n, 5 para potencias\n, 6 para raices\n, 7 para salir\n");
     scanf("%d", &e);
     if (e==1)
         {
@@ -65,16 +65,8 @@ int main(){
             f=x/y;
             printf("el resultado es:%d\n",f);
         }
-    if  (e==5)
-        {
-            printf("adios");
-        }
 
-    if  (e>8)
-        {
-            repetir();
-        }
-    if  (e==6)
+    if  (e==5)
         {
             float x=0;
             float y=0;
@@ -85,7 +77,8 @@ int main(){
             scanf("%f", &y);
             printf("el resultado es %lf\n",pow(x, y));
         }
-    if  (e==7)
+
+    if  (e==6)
         {
             float x=0;
             float y=0;
@@ -96,6 +89,16 @@ int main(){
             scanf("%f", &y);
             printf("el resultado es %lf\n",pow(x, 1/y));
 
+        }
+
+    if  (e==7)
+        {
+            printf("adios");
+        }
+
+    if  (e>=8)
+        {
+            repetir();
         }
 
     return 0;
