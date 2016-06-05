@@ -26,74 +26,140 @@ int main(){
     scanf("%d", &e);
     if (e==1)
         {
-            printf("has elegido suma \n");
-            printf("Introduce un número:");
+            printf("Has elegido suma \n");
+            printf("Introduce un n%cmero:",163);
             scanf("%d", &x);
-            printf("Introduce otro número:");
+            printf("Introduce otro n%cmero:",163);
             scanf("%d", &y);
             f=x+y;
-            printf("el resultado es:%d\n",f);
+            printf("El resultado es:%d\n",f);
+            printf("¿Quieres continuar? \n");
+            printf("1=si, 2=no \n");
+            scanf("%d", &a);
+            if(a==1)
+                {
+                    repetir();
+                }
+            if (a>=2)
+                {
+                    printf("Adi%cs",162);
+                }
         }
 
     if  (e==2)
         {
-            printf("has elegido resta \n");
-            printf("Introduce un número:");
+            printf("Has elegido resta \n");
+            printf("Introduce un n%cmero:",163);
             scanf("%d", &x);
-            printf("Introduce otro número:");
+            printf("Introduce otro n%cmero:",163);
             scanf("%d", &y);
             f=x-y;
-            printf("el resultado es:%d\n",f);
+            printf("El resultado es:%d\n",f);
+            printf("¿Quieres continuar? \n");
+            printf("1=si, 2=no \n");
+            scanf("%d", &a);
+            if(a==1)
+                {
+                    repetir();
+                }
+            if (a>=2)
+                {
+                    printf("Adi%cs",162);
+                }
         }
     if  (e==3)
         {
-            printf("has elegido multiplicacion \n");
-            printf("Introduce un número:");
+            printf("Has elegido multiplicaci%cn \n",162);
+            printf("Introduce un n%cmero:",163);
             scanf("%d", &x);
-            printf("Introduce otro número:");
+            printf("Introduce otro n%cmero:",163);
             scanf("%d", &y);
             f=x*y;
-            printf("el resultado es:%d\n",f);
+            printf("El resultado es:%d\n",f);
+            printf("¿Quieres continuar? \n");
+            printf("1=si, 2=no \n");
+            scanf("%d", &a);
+            if(a==1)
+                {
+                    repetir();
+                }
+            if (a>=2)
+                {
+                    printf("Adi%cs",162);
+                }
         }
     if  (e==4)
         {
-            printf("has elegido division \n");
-            printf("Introduce un número:");
+            printf("Has elegido divisi%cn \n",162);
+            printf("Introduce un n%cmero:",163);
             scanf("%d", &x);
-            printf("Introduce otro número:");
+            printf("Introduce otro n%cmero:",163);
             scanf("%d", &y);
             f=x/y;
-            printf("el resultado es:%d\n",f);
+            printf("El resultado es:%d\n",f);
+            printf("¿Quieres continuar? \n");
+            printf("1=si, 2=no \n");
+            scanf("%d", &a);
+            if(a==1)
+                {
+                    repetir();
+                }
+            if (a>=2)
+                {
+                    printf("Adi%cs",162);
+                }
         }
 
     if  (e==5)
         {
             float x=0;
             float y=0;
-            printf("has elegido pontencias \n");
-            printf("introduce un numero:");
+            printf("Has elegido pontencias \n");
+            printf("introduce un n%cmero:",163);
             scanf("%f", &x);
-            printf("intrduce el numero al que quieres elevarlo:");
+            printf("intrduce el n%cmero al que quieres elevarlo:",163);
             scanf("%f", &y);
-            printf("el resultado es %lf\n",pow(x, y));
+            printf("El resultado es %lf\n",pow(x, y));
+            printf("¿Quieres continuar? \n");
+            printf("1=si, 2=no \n");
+            scanf("%d", &a);
+            if(a==1)
+                {
+                    repetir();
+                }
+            if (a>=2)
+                {
+                    printf("Adi%cs",162);
+                }
         }
 
     if  (e==6)
         {
             float x=0;
             float y=0;
-            printf("has elegido raices \n");
-            printf("introduce un numero:");
+            printf("Has elegido raices \n");
+            printf("Introduce un n%cmero:",163);
             scanf("%f", &x);
-            printf("introduce el indice de la raiz:");
+            printf("Introduce el %cndice de la raiz:",161);
             scanf("%f", &y);
-            printf("el resultado es %lf\n",pow(x, 1/y));
+            printf("El resultado es %lf\n",pow(x, 1/y));
+            printf("¿Quieres continuar? \n");
+            printf("1=si, 2=no \n");
+            scanf("%d", &a);
+            if(a==1)
+                {
+                    repetir();
+                }
+            if (a>=2)
+                {
+                    printf("Adi%cs",162);
+                }
 
         }
 
     if  (e==7)
         {
-            printf("adios");
+            printf("adi%cs",162);
         }
 
     if  (e>=8)
@@ -104,6 +170,6 @@ int main(){
     return 0;
 }
 int repetir(){
-printf("ese numero no vale\n");
+printf("Ese n%cmero no vale\n",163);
 main();
 }
